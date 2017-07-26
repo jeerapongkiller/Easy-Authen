@@ -25,7 +25,7 @@
 		9971EC361F2887D600B8B0E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9971EC381F2887D600B8B0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9971EC3E1F288BC800B8B0E6 /* logo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo3.png; path = ../../../Desktop/Images/logo3.png; sourceTree = "<group>"; };
-		9971EC401F289E9400B8B0E6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9971EC401F289E9400B8B0E6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "Easy Authen/README.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +42,7 @@
 		9971EC201F2887D600B8B0E6 = {
 			isa = PBXGroup;
 			children = (
+				9971EC401F289E9400B8B0E6 /* README.md */,
 				9971EC2B1F2887D600B8B0E6 /* Easy Authen */,
 				9971EC2A1F2887D600B8B0E6 /* Products */,
 			);
@@ -65,7 +66,6 @@
 				9971EC331F2887D600B8B0E6 /* Assets.xcassets */,
 				9971EC351F2887D600B8B0E6 /* LaunchScreen.storyboard */,
 				9971EC381F2887D600B8B0E6 /* Info.plist */,
-				9971EC401F289E9400B8B0E6 /* README.md */,
 			);
 			path = "Easy Authen";
 			sourceTree = "<group>";
