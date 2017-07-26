@@ -66,6 +66,9 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p4y-ol-z86"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -86,6 +89,11 @@
                             <constraint firstItem="vRg-Dj-xrx" firstAttribute="top" secondItem="Rzh-56-Fty" secondAttribute="bottom" constant="32" id="zey-On-ykw"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="messageLabel" destination="Kmc-tl-BjO" id="z6f-oY-ZLC"/>
+                        <outlet property="passwordTextFeild" destination="vRg-Dj-xrx" id="axo-Uc-FIb"/>
+                        <outlet property="userTextField" destination="Rzh-56-Fty" id="ObO-Lp-VhM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -9,6 +9,36 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    //Implicit
+    let strDicUser = ["master": "12345", "doramon": "6789"]
+    
+    
+    @IBOutlet weak var userTextField: UITextField!
+    @IBOutlet weak var passwordTextFeild: UITextField!
+    @IBOutlet weak var messageLabel: UILabel!
+    @IBAction func loginButton(_ sender: Any) {
+        
+        //Get Value From TextField
+        let strUser: String = userTextField.text!
+        let strPassword: String = passwordTextFeild.text!
+        
+        print("User ==> \(strUser)")
+        print("Password ==> \(strPassword)")
+        
+        //Check User
+        if let strMyUPassword = strDicUser[strUser]{
+            print("User OK!")
+        }else{
+        print("User False")
+        }
+        
+    }   //Login Button
+    
+    
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
